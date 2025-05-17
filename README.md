@@ -7,6 +7,7 @@ A modern web application that predicts calories burnt based on user input such a
 ## 📦 Features
 
 - 🧠 Predict calories burnt using a trained machine learning model
+- 🧪 Includes a preprocessing pipeline for feature scaling and encoding before prediction
 - 🎨 Clean, responsive UI with Tailwind CSS
 - 🚀 FastAPI backend for fast, async request handling
 - 📂 Pickle-based ML pipeline loading with `.env` support
@@ -100,4 +101,3 @@ Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - Body Temp: 37.2 °C
 
 ➡️ Returns: `Calories Burnt: 240.5 kcal` (example)
-
