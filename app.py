@@ -1,13 +1,18 @@
 from fastapi import FastAPI, Form, Request, Depends
 from fastapi.templating import Jinja2Templates
+from dotenv import load_dotenv
+import os
 import pickle
 import pandas as pd
 
+load_dotenv()
 
+# Get the path from .env
+pickle_path = os.getenv("PICKLE_PATH")
 app = FastAPI()
 
 
-with open("pipeline_model.pkl", "rb") as f:
+with open("pickle_path", "rb") as f:
     pipeline = pickle.load(f)
 
 
