@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prediction Result</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prediction Result</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white p-8 rounded-2xl shadow-lg text-center w-full max-w-md">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6">Prediction Result</h2>
-        <div class="bg-green-100 text-green-800 px-6 py-4 rounded-lg shadow-md">
-            <h4 class="text-lg font-semibold">Calories Burnt: <strong>{{ calories }}</strong> kcal</h4>
-        </div>
-        <div class="mt-6">
-            <a href="/" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-md transition duration-300">Go Back</a>
-        </div>
+<body class="bg-gradient-to-br from-green-100 via-blue-100 to-purple-100 min-h-screen flex items-center justify-center font-sans">
+  <div class="backdrop-blur-lg bg-white/30 border border-white/40 shadow-2xl rounded-2xl p-10 text-center w-full max-w-lg">
+    <h2 class="text-3xl font-extrabold text-gray-800 mb-6 tracking-tight">✅ Prediction Result</h2>
+
+    <div class="bg-emerald-100 text-emerald-800 px-6 py-5 rounded-xl shadow-inner text-lg font-medium">
+      🔥 <span class="font-bold">Calories Burnt:</span> <strong class="text-2xl text-emerald-900">{{ calories }}</strong> kcal
     </div>
+
+    <div class="mt-8">
+      <a href="/" class="inline-block bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-2 px-6 rounded-xl shadow-md transition duration-300">
+        ⬅️ Predict Again
+      </a>
+    </div>
+  </div>
 </body>
 </html>
