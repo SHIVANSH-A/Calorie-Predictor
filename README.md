@@ -1,4 +1,4 @@
-# 🔥 Calories Burnt Prediction Web App
+# 🔥 FitBurn - Calories Burnt Prediction Web App
 
 A modern web application that predicts calories burnt based on user input such as age, weight, gender, heart rate, etc. Built with **FastAPI**, **TailwindCSS**, and an ML pipeline trained using **XGBoost**.
 
